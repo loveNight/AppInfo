@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/tv_cache_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCacheSizeLabel"
+            />
+        <TextView 
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_cache_size_label"
+            android:layout_marginLeft="15dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_data_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvDataSizeLabel"
+            android:layout_below="@id/tv_cache_size_label"
+            android:layout_alignLeft="@id/tv_cache_size_label"
+            />
+        <TextView 
+            android:id="@+id/tv_data_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_cache_size"
+            android:layout_alignLeft="@id/tv_cache_size"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_code_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCodeSizeLabel"
+            android:layout_below="@id/tv_data_size_label"
+            android:layout_alignLeft="@id/tv_data_size_label"
+            />
+        <TextView 
+            android:id="@+id/tv_code_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_data_size"
+            android:layout_alignLeft="@id/tv_data_size"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_total_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTotalSizeLabel"
+            android:layout_below="@id/tv_code_size_label"
+            android:layout_alignLeft="@id/tv_code_size_label"
+            />
+        <TextView 
+            android:id="@+id/tv_total_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_code_size"
+            android:layout_alignLeft="@id/tv_code_size"
+            />
+            
+    </RelativeLayout>
+    
+</RelativeLayout>

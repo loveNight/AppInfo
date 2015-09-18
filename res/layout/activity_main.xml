@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <Button 
+	        android:id="@+id/btnMainApp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnMainApp"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/btnAllApp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnAllApp"
+	        android:layout_below="@id/btnMainApp"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/btnSysApp"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnSystemApp"
+	        android:layout_below="@id/btnAllApp"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/btnThirdApp"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnThirdApp"
+	        android:layout_below="@id/btnSysApp"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/btnSdCardApp"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnSdCardApp"
+	        android:layout_below="@id/btnThirdApp"
+	        />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

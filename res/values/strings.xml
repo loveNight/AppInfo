@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppInfo</string>
+    
+<!-- ListView中的TextView标签 -->
+    <string name="appNameLabel">App名：</string>
+    <string name="packageLabel">包名：</string>
+    
+<!-- MainActivity中的按钮 -->
+    <string name="btnMainApp">APP启动器</string>
+    <string name="btnAllApp">所有APP</string>
+    <string name="btnSystemApp">系统APP</string>
+    <string name="btnThirdApp">第三方APP</string>
+    <string name="btnSdCardApp">SDCard中的APP</string>
+    
+<!--     程序大小Dialog中的TextView标签 -->
+    <string name="tvCacheSizeLabel">缓存大小</string>
+    <string name="tvDataSizeLabel">数据大小</string>
+    <string name="tvCodeSizeLabel">APP大小</string>
+    <string name="tvTotalSizeLabel">总大小</string>
+</resources>
